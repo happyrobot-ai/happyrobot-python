@@ -1,1 +1,1 @@
-# happyrobot-python
+# Happyrobot Python SDK

@@ -28,6 +28,4 @@ class Message(BaseModel):
     tool_calls: Optional[list[ToolCall]] = None
     tool_call_id: Optional[str] = None
     name: Optional[str] = None
-    timestamp: float
-
 

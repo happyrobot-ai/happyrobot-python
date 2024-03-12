@@ -1,9 +1,9 @@
 from enum import Enum
-from typing import Optional, Union, List
+from typing import Optional
 from pydantic import BaseModel
 
-from happyrobot_python.models.call import Call
-from happyrobot_python.models.message import Message
+from happyrobot.models.call import Call
+from happyrobot.models.message import Message
 
 
 class StartContent(BaseModel):
