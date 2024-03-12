@@ -35,6 +35,6 @@ setup(
     include_package_data=True,
     keywords='happyrobot',
     packages=find_packages(include=['happyrobot', 'happyrobot.*']),
-    version='0.2.0',
+    version='0.2.1',
     zip_safe=False,
 )
