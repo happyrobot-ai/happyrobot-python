@@ -14,6 +14,8 @@ def read_requirements(file):
 
 requirements = read_requirements('requirements.txt')
 
+VERSION = '0.2.2'
+
 setup(
     author="Happyrobot",
     author_email='founders@happyrobot.ai',
@@ -35,6 +37,6 @@ setup(
     include_package_data=True,
     keywords='happyrobot',
     packages=find_packages(include=['happyrobot', 'happyrobot.*']),
-    version='0.2.1',
+    version=VERSION,
     zip_safe=False,
 )
