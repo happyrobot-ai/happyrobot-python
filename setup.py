@@ -14,13 +14,13 @@ def read_requirements(file):
 
 requirements = read_requirements('requirements.txt')
 
-VERSION = '0.2.2'
+VERSION = '0.2.4'
 
 setup(
     author="Happyrobot",
     author_email='founders@happyrobot.ai',
     name='happyrobot',
-    python_requires='>=3.10',
+    python_requires='>=3.9',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
