@@ -13,3 +13,5 @@ class Call(BaseModel):
     id: str
     organization_id: str
     metadata: CallMetadata
+    created: str
+    
