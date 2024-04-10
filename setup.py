@@ -14,7 +14,7 @@ def read_requirements(file):
 
 requirements = read_requirements('requirements.txt')
 
-VERSION = '0.2.5'
+VERSION = '0.2.6'
 
 setup(
     author="Happyrobot",
