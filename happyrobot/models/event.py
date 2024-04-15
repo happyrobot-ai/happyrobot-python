@@ -18,7 +18,6 @@ class EndContent(BaseModel):
 
 class EventType(str, Enum):
     Start = "start"
-    Message = "message"
     End = "end"
 
 
