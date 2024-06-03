@@ -90,5 +90,5 @@ class Messages(BaseModel):
             else:
                 return item  # Return the item as is if it's not a dict, list, or JSON string
 
-        return json.dumps([serialize_item(message) for message in messages])
+        return json.dumps([serialize_item(message) for message in messages], ensure_ascii=False)
         
