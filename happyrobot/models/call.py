@@ -14,4 +14,4 @@ class Call(BaseModel):
     organization_id: str
     metadata: CallMetadata
     created: str
-    
+    extraction: Optional[dict] = None

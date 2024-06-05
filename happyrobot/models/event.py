@@ -15,7 +15,6 @@ class EndContent(BaseModel):
     tools: Optional[dict] = None
 
 
-
 class EventType(str, Enum):
     Start = "start"
     End = "end"
