@@ -15,3 +15,5 @@ class Call(BaseModel):
     metadata: CallMetadata
     created: str
     extraction: Optional[dict] = None
+    classification: Optional[dict] = None
+    
