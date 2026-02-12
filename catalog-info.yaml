@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: happyrobot-python
+  annotations:
+    slack.com/channel: security-alerts
+spec:
+  type: service
+  lifecycle: production
+  owner: security
